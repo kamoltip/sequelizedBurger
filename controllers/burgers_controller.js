@@ -10,7 +10,7 @@ var db = require("../models");
 
 module.exports = function(app) {
 
-  app.get("/", function(req, res) {
+  app.get("/home", function(req, res) {
   db.Burger.findAll({
     where: {}
   }).then(function(data) {
