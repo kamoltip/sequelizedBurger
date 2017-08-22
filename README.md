@@ -14,7 +14,7 @@ The user may enter any burger name to add it to the menu. This also adds the new
 
 [demo](https://sequelized-dat-burger.herokuapp.com/) : Try out Sequelized-Dat-Burger on browser.
  
-![home](/public/assets/img/burgerDemo.png)
+![home](/public/assets/img/seq-burger-demo.png)
 
 
 ***
