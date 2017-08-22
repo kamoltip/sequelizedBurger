@@ -53,7 +53,6 @@ app.put("/:id", function(req, res) {
       where: query
     }).then(function(dbBurger) {
       res.json(dbBurger);
-      res.render("index");
     });
   });
 

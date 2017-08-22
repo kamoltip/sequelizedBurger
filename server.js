@@ -27,7 +27,7 @@ app.use(express.static("public"));
 // app.use("/:id", routes);
 // app.use("/api", routes);
 
-require("../controllers/burgers_controller.js")(app);
+require("./controllers/burgers_controller.js")(app);
 
 	
 	db.sequelize.sync({ force:false }).then(function(){
