@@ -17,7 +17,7 @@
     "username": "me56lqk7cu2h691g",
     "password": "pfyh9r1rhm47f2q1",
     "database": "cv5bsep4yj0x8lrr",
-    "host": "127.0.0.1",
+    "host": "uc13jynhmkss3nve.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
 }
