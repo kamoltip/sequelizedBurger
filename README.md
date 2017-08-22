@@ -1,6 +1,6 @@
 # burger
 
-# Eat-Dat-Burger!
+# Sequelized-Dat-Burger!
 
 This application allows users to create their favorite burger and add them to the database.
 
@@ -12,7 +12,7 @@ The user may enter any burger name to add it to the menu. This also adds the new
 
 ## Demo  
 
-[demo](https://eat-dat-burgers.herokuapp.com/) : Try out Eat-Dat-Burger on browser.
+[demo](https://sequelized-dat-burger.herokuapp.com/) : Try out Sequelized-Dat-Burger on browser.
  
 ![home](/public/assets/img/burgerDemo.png)
 
@@ -25,14 +25,17 @@ The user may enter any burger name to add it to the menu. This also adds the new
 - body-parser NPM Package - https://www.npmjs.com/package/body-parser
 - express NPM Package - https://www.npmjs.com/package/express
 - Handlebars - http://handlebarsjs.com/installation.html
+- express-handlebars : https://www.npmjs.com/package/express-handlebars
 - MySQL - https://www.npmjs.com/package/mysql
-- ORM - https://www.npmjs.com/package/method-override
+- method-override - https://www.npmjs.com/package/method-override
+- sequelize - http://docs.sequelizejs.com/manual/installation/getting-started.html
 
 
 ## Prerequisites
 
 ```
 - Node.js - Download the latest version of Node https://nodejs.org/en/
+- npm packages - Following above.
 - Materialize - Get CDN here: http://materializecss.com/getting-started.html/
 
 ```
