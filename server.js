@@ -23,7 +23,10 @@ app.use(express.static("public"));
 // Import routes and give the server access to them.
 // var routes = require("./controllers/burgers_controller.js");
 // app.use("/", routes);
+// app.use("/create", routes);
+// app.use("/:id", routes);
 // app.use("/api", routes);
+
 require("./controllers/burgers_controller.js")(app);
 
 	

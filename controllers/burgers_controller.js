@@ -1,8 +1,8 @@
-var express = require("express");
-var exphbs = require("express-handlebars");
-// var router = express.Router();
+// var express = require("express");
+// var exphbs = require("express-handlebars");
+// var app = express.Router();
 
-var methodOverride = require("method-override");
+// var methodOverride = require("method-override");
 
 // Import the model (cat.js) to use its database functions.
 var db = require("../models");
@@ -21,7 +21,7 @@ module.exports = function(app) {
   });
 });
 
-app.post('/create', function (req, res) {
+app.post("/create", function (req, res) {
     db.Burger.create({
         burger_name: req.body.burger_name
     })
