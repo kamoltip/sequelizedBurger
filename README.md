@@ -19,6 +19,11 @@ The user may enter any burger name to add it to the menu. This also adds the new
 
 ***
 
+For API burger :
+### https://sequelized-dat-burger.herokuapp.com*/api* 
+![Burger-Api](/public/assets/img/seq-burger.png)
+***
+
 ## Technologies used
 
 - Node.js : Download the latest version of Node https://nodejs.org/en/
